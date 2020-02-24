@@ -1,5 +1,5 @@
 from django.contrib import admin
 
-from mohae.models.moim import Moim
+from mohae import models
 
-admin.site.register(Moim)
+admin.site.register(models.Moim)
